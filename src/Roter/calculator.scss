@@ -1,0 +1,112 @@
+.emi-root {
+  .emi-calculator {
+    background: #046598;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 8%);
+    line-height: 26px;
+    color: #fff;
+    padding: 1.5px 12px;
+    display: block;
+    max-width: max-content;
+    margin: 0 auto 5px auto;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .emi-title {
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+  }
+  .divider {
+    background: #046598;
+    border: 0 none;
+    height: 3px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 40px;
+  }
+  .ant-divider-horizontal {
+    min-width: 40px;
+  }
+  .emi-subtitle {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #727272;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+.form-emi {
+  display: flex;
+  .divider-vartical {
+    width: 50%;
+    .emi-form-wrapper {
+      display: flex;
+      .ant-form-item {
+        width: 50%;
+        .ant-form-item-required {
+          width: 200px !important    ;
+          line-height: 0px;
+        }
+      }
+    }
+    .emi-submit-button {
+      background-color: #046598;
+      color: #fff;
+      position: relative;
+      font-size: 15px;
+      font-weight: 500;
+      display: inline-block;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+      box-shadow: 0 1px 4px 0px rgb(0 0 0 / 5%);
+      border-radius: 4px;
+    }
+  }
+  .your-emi-par {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    .your-emi-title {
+      align-items: center;
+      .emi-title {
+        margin: 0px;
+      }
+      .emi-month {
+        margin: 0px 0px 20px 150px;
+        font-size: 18px;
+      }
+      .emi-submit-button-Loan{
+        margin: 60px 0px 0px 100px;
+        background-color: #046598;
+        color: #fff;
+        position: relative;
+        font-size: 15px;
+        font-weight: 500;
+        display: inline-block;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        box-shadow: 0 1px 4px 0px rgb(0 0 0 / 5%);
+        border-radius: 4px;
+      }
+      .root-wrapper {
+        display: flex;
+        justify-content: space-between;
+        .total-interest {
+          .total-title {
+            margin: 0px;
+          }
+          .mony-interest {
+            margin: 0px 0px 0px 25px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
