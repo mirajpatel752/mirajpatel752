@@ -5,9 +5,9 @@
 
 <p align="left"> <a href="https://twitter.com/mirajpatel" target="blank"><img src="https://img.shields.io/twitter/follow/mirajpatel?logo=twitter&style=for-the-badge" alt="mirajpatel" /></a> </p>
 
-- 🌱 I’m currently learning **Node.js ,React Native**
+- 🌱 I’m currently working  **Node.js, React.js**
 
-- 💬 Ask me about **React.js**
+- 💬 Ask me about **React.js, Node.js**
 
 - 📫 How to reach me **mirajpatel752@gmail.com**
 
